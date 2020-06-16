@@ -5,6 +5,7 @@
 ### Create a directory for your server to live
 
 - `mkdir < server-directory-name >`
+- `cd < server-directory-name >`
 - `git init`
 - `npx gitignore node` //creates git.ignore for node
 - `npm init -y` //creates package.json
@@ -22,3 +23,5 @@
 	"start": "node index.js" (for production)
 }
 ```
+
+- Create an index.js file for your port and a directory called "api" that will hold your server.js file. This is where we can organize our different server side routes.

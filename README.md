@@ -25,3 +25,5 @@
 ```
 
 - Create an index.js file for your port and a directory called "api" that will hold your server.js file. This is where we can organize our different server side routes.
+
+- Create a middleware folder -- this is where we will hold our validate files.
